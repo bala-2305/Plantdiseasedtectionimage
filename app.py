@@ -105,6 +105,7 @@ if uploaded_file:
 
         # 👉 REDIRECT LINK TO APP 2
         disease_query = quote(translated)
-        redirect_url = f"https://plantdiseaseautoinjectchat.onrender.com?disease={disease_query}"
+        redirect_url = f"https://plantdiseaseautoinjectchat.streamlit.app?disease={disease_query}"
         st.markdown("#### 📩 Learn more about this disease:")
         st.markdown(f"[🔗 Ask AI Expert about **{translated}**]({redirect_url})")
+
